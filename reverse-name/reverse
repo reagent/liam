@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+# In Ruby, there are 2 ways to output text to the screen:
+# * `puts` -- outputs text to the screen and adds a "newline", which means that the cursor moves to the next line of output
+# * `print` -- outputs text to the screen, but does not add a "newline", text printed after this will go to the right, not on a new line
+
+while(true) do
+  print("What is your name? ")
+  name = gets.chomp
+
+  print("Your name backwards is: ")
+  puts(name.reverse)
+  print("Try again? (y/n) ")
+  answer = gets.chomp
+
+  break if (answer == "n")
+end
