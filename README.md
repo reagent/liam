@@ -6,5 +6,6 @@ Programming problems for kids:
 1. Convert to/from Roman Numerals
 1. Find the smallest divisor for a number
 1. Making change with 1- and 5-dollar bills (minimum number of bills)
+1. Calculating squares of numbers
 
 Reference: [Programming Problems for Children](http://marekrychlik.com/node/417)
